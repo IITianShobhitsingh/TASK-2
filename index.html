@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src=
+        "https://code.jquery.com/jquery-3.4.1.min.js">
+    </script>
+    <script src="https://kit.fontawesome.com/b9be1986e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-1</title>
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+          <a href="#ob1" id="home" class="active">Home</a>
+          <a href="#ob2" id="about">About Us</a>
+          <a href="#ob3" id="career">Career</a>
+          <a href="#ob4" id="Project">Project</a>
+          <a href="#ob5" id="blog">Blog</a>
+          <a href="#ob6" id="Product">Product</a>
+          <a href="#ob7" id="contact">Contact Us</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </header>
+      <button href="javascript:void(0);" onclick="topFunction()" id="myBtn" title="Go to top">
+        UP
+    </button>
+      <div class="page">ABYAAZ</div>
+      <div class="main">
+        <div class="cards"  id="ob1">
+            <h3 class="headings">HOME</h3>
+            <p>This os the main page of the website and this contains the purpose and the motives of <b>ABHYAZ</b> i.e. talent and skill aquitiona and skill development platform.It also contains Testimonials of the trainee/interns about the platform and their rich experiene during the internship offered by <b>ABHYAZ</b> in various fields </p>
+        </div>
+
+        <div class="cards" id="ob2">
+            <h3 class="headings">ABOUT US</h3>
+            <p>In this page more about <b>ABHYAZ</b> platform its role and aim, it tells about the past of the platform and the core team of <b>ABHYAZ</b> and also describes its other platform and libraries build exclusively for talent upgradation and its accountability</p>
+        </div>
+
+        <div class="cards" id="ob3">
+            <h3 class="headings">CAREER</h3>
+            <p>On this page pf the platform, career section is there very to the point and lucid instructions about joining them is given, one can join the the platform as an intern, finishing school or as an returnship about which all the information is provided in the careers page. </p>
+        </div>
+
+        <div class="cards" id="ob4">
+            <h3 class="headings">PROJECTS</h3>
+            <p>This page is a wonder for engineering students as this gives them oppertunity to do projects may it be technical,virtual or in manufacturing field under the guidance of abhyaz team.The platform gives very to the point idea of how to enroll for different degree groups, duration period, 1 to 1 interaction and many such amazing features.</p>
+        </div>
+
+        <div class="cards" id="ob5">
+            <h3 class="headings">BLOG</h3>
+            <p>This is a official blog page of ABYAZ and is very informative and contains many useful topics to be updated whether it may be the upcoming industry 4.0 or about content writing very diverse choise of topics have been blogged on this page. </p>
+        </div>
+
+        <div class="cards" id="ob6">
+            <h3 class="headings">PRODUCTS</h3>
+            <p>This is an elective library, as the name suggest it contains more than 60+ elective subjects to pursue from the 4th semester from abhyaz, which provides industry knowledge and module course structure andone to one online consultations and many such astounding features which can help a person grow in an industry ready manner, ready to face any challenge.</p>
+        </div>
+
+        <div class="cards" id="ob7">
+            <h3 class="headings">CONTACT US</h3>
+            <p>This page contains the social media handles and contacting information, that how can one contact the platform for any query, the location information of the main office of ABHYAZ which is located in CHENNAI.</p>
+        </div>
+
+
+</body>
+<script type="text/javascript">
+    function topFunction() {
+        $("html, body").animate(
+            { scrollTop: "0" }, 1000);
+    }
+$("#home").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#ob1").offset().top
+    }, 2000);
+});
+$("#about").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#ob2").offset().top
+    }, 2000);
+});
+$("#career").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#ob3").offset().top
+    }, 2000);
+});
+$("#project").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#ob4").offset().top
+    }, 2000);
+});
+$("#blog").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#ob5").offset().top
+    }, 2000);
+});
+$("#product").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#ob6").offset().top
+    }, 3000);
+});
+$("#contact").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#ob7").offset().top
+    }, 2000);
+});
+</script>
+<script src="index.js"></script>
+</html>
